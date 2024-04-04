@@ -3231,7 +3231,7 @@ li {
 }
 @media (max-width: 991.98px) {
   .home-banner-style1 .home-style1 {
-    height: 500px;
+    height: 250px;
   }
 }
 
@@ -7833,12 +7833,9 @@ li.mm-listitem:focus {
 }
 
 @media (max-width: 767.98px) {
-  .advance-search-list li .search-field {
-    margin-bottom: 15px;
-    width: auto;
-  }
   .advance-search-tab h3 {
-    font-size: 20px;
+    font-size: 30px !important;
+    margin-top: 0 !important;
   }
 }
 .advance-search-list li .open-btn {
@@ -7908,17 +7905,6 @@ li.mm-listitem:focus {
 .advance-search-tab .nav-link:focus,
 .advance-search-tab .nav-link:active {
   border-color: transparent;
-}
-.advance-search-tab .nav-link.active {
-  color: var(--headings-color);
-  border-color: transparent;
-  border-bottom-color: #181a20;
-}
-.advance-search-tab .tab-content {
-  background-color: #ffffff;
-  border-radius: 0 12px 12px 12px;
-  padding: 20px;
-  position: relative;
 }
 
 .advance-style2 {

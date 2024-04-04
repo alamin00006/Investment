@@ -8,7 +8,7 @@ const HeroContent = () => {
   const router = useRouter();
 
   return (
-    <div className="advance-search-tab mt70 mt30-md animate-up-3">
+    <div className="advance-search-tab mt70  animate-up-3">
       <div className="row ">
         <div
           className="col-lg-6"
@@ -26,7 +26,7 @@ const HeroContent = () => {
           </h3>
           <button>Buy Now</button>
         </div>
-        <div className="col-lg-6 banner_left_part ">
+        <div className="col-lg-6 banner_left_part d-none d-md-block d-lg-block">
           <div className="row">
             <div
               className="col-lg-6 slide_1"
