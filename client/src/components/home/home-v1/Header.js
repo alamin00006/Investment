@@ -43,9 +43,9 @@ const Header = () => {
                   <div className="logos mr40">
                     <Link className="header-logo logo1" href="/">
                       <Image
-                        width={138}
+                        width={246}
                         height={44}
-                        src="/images/header-logo.svg"
+                        src="/images/home/Sharikana-logo.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -53,7 +53,7 @@ const Header = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/home/Sharikana-logo.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -70,21 +70,30 @@ const Header = () => {
                 <div className="d-flex align-items-center">
                   <a
                     href="#"
-                    className="login-info d-flex align-items-center ud-btn add-property menu-btn bdrs60"
+                    className="login-info d-flex align-items-cente"
                     data-bs-toggle="modal"
                     data-bs-target="#loginSignupModal"
                     role="button"
                   >
-                    <i className="far fa-user-circle fz16 me-2" />{" "}
+                    <i
+                      className="far fa-user-circle fz16 me-2"
+                      style={{
+                        color: "#00C194",
+                      }}
+                    />{" "}
                     <span className="d-none d-xl-block">Login / Register</span>
                   </a>
-                  {/* <Link
-                    className="ud-btn add-property menu-btn bdrs60 mx-2 mx-xl-4"
+                  <Link
+                    className="ud-btn add-property bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
+                    style={{
+                      color: "white",
+                      backgroundColor: "#00C194",
+                    }}
                   >
-                    Add Property
+                    Get started
                     <i className="fal fa-arrow-right-long" />
-                  </Link> */}
+                  </Link>
                   {/* <a
                     className="sidemenu-btn filter-btn-right"
                     href="#"
@@ -92,7 +101,20 @@ const Header = () => {
                     data-bs-target="#SidebarPanel"
                     aria-controls="SidebarPanelLabel"
                   >
-                
+                    <Image
+                      width={25}
+                      height={9}
+                      className="img-1"
+                      src="/images/dark-nav-icon.svg"
+                      alt="humberger menu"
+                    />
+                    <Image
+                      width={25}
+                      height={9}
+                      className="img-2"
+                      src="/images/dark-nav-icon.svg"
+                      alt="humberger menu"
+                    />
                   </a> */}
                 </div>
               </div>

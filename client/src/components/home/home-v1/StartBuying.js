@@ -23,8 +23,8 @@ const StartBuying = () => {
         <button
           style={{
             borderRadius: "12px",
-            border: "1px solid #EB6753",
-            background: " #EB6753",
+            border: "1px solid #00C194",
+            background: " #00C194",
             color: "white",
             padding: "5px 20px",
           }}

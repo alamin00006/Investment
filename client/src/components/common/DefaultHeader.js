@@ -42,7 +42,7 @@ const DefaultHeader = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/home/Sharikana-logo.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -50,7 +50,7 @@ const DefaultHeader = () => {
                       <Image
                         width={138}
                         height={44}
-                        src="/images/header-logo2.svg"
+                        src="/images/home/Sharikana-logo.png"
                         alt="Header Logo"
                       />
                     </Link>
@@ -72,17 +72,26 @@ const DefaultHeader = () => {
                     data-bs-target="#loginSignupModal"
                     role="button"
                   >
-                    <i className="far fa-user-circle fz16 me-2" />{" "}
+                    <i
+                      className="far fa-user-circle fz16 me-2"
+                      style={{
+                        color: "#00C194",
+                      }}
+                    />{" "}
                     <span className="d-none d-xl-block">Login / Register</span>
                   </a>
                   <Link
-                    className="ud-btn btn-white add-property bdrs60 mx-2 mx-xl-4"
+                    className="ud-btn add-property bdrs60 mx-2 mx-xl-4"
                     href="/dashboard-add-property"
+                    style={{
+                      color: "white",
+                      backgroundColor: "#00C194",
+                    }}
                   >
-                    Add Property
+                    Get started
                     <i className="fal fa-arrow-right-long" />
                   </Link>
-                  <a
+                  {/* <a
                     className="sidemenu-btn filter-btn-right"
                     href="#"
                     data-bs-toggle="offcanvas"
@@ -103,7 +112,7 @@ const DefaultHeader = () => {
                       src="/images/dark-nav-icon.svg"
                       alt="humberger menu"
                     />
-                  </a>
+                  </a> */}
                 </div>
               </div>
               {/* End .col-auto */}

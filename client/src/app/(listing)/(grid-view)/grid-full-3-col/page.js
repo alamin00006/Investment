@@ -50,7 +50,7 @@ const GridFull3Col = () => {
       {/* End Breadcumb Sections */}
 
       {/* Property Filtering */}
-      <ProperteyFiltering/>
+      <ProperteyFiltering />
       {/* Property Filtering */}
 
       {/* Start Our Footer */}

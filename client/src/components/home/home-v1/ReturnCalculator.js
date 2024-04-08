@@ -93,7 +93,7 @@ const ReturnCalculator = () => {
                     onClick={() => setReturnTypeValue(index)}
                     style={{
                       backgroundColor:
-                        returnTypeValue === index ? "#EB6753" : "",
+                        returnTypeValue === index ? "#00C194" : "",
                       color: returnTypeValue === index ? "white" : "black",
                       borderRadius: "50px",
                       cursor: "pointer",
@@ -238,7 +238,7 @@ const ReturnCalculator = () => {
             <div>
               <h6
                 style={{
-                  border: "1px solid #EB6753",
+                  border: "1px solid #00C194",
                   borderRadius: "15px",
                   padding: "10px 40px",
                 }}
@@ -285,7 +285,7 @@ const ReturnCalculator = () => {
           </div>
           <div
             style={{
-              backgroundColor: "#EB6753",
+              backgroundColor: "#00C194",
               borderRadius: "10px",
               marginTop: "24px",
             }}

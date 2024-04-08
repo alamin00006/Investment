@@ -22,7 +22,7 @@ const Benifits = () => {
               style={{
                 width: "30px",
                 height: "30px",
-                color: "#EB6753",
+                color: "#00C194",
               }}
             />
           </div>
@@ -64,7 +64,7 @@ const Benifits = () => {
               style={{
                 width: "30px",
                 height: "30px",
-                color: "#EB6753",
+                color: "#00C194",
               }}
             />
           </div>
@@ -106,7 +106,7 @@ const Benifits = () => {
               style={{
                 width: "30px",
                 height: "30px",
-                color: "#EB6753",
+                color: "#00C194",
               }}
             />
           </div>
@@ -148,7 +148,7 @@ const Benifits = () => {
               style={{
                 width: "30px",
                 height: "30px",
-                color: "#EB6753",
+                color: "#00C194",
               }}
             />
           </div>

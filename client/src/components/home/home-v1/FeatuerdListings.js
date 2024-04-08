@@ -91,7 +91,10 @@ const FeaturedListings = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-2 ">
                     <div className="d-flex justify-items-center gap-2">
-                      <p className="fw-bold" style={{ fontSize: "15px" }}>
+                      <p
+                        className="fw-bold"
+                        style={{ fontSize: "15px", color: "#00C194" }}
+                      >
                         13% IRR
                       </p>
                       <div>
@@ -105,7 +108,10 @@ const FeaturedListings = () => {
                       </div>
                     </div>
                     <div className="d-flex justify-items-center gap-2">
-                      <p className="fw-bold" style={{ fontSize: "15px" }}>
+                      <p
+                        className="fw-bold"
+                        style={{ fontSize: "15px", color: "#00C194" }}
+                      >
                         11% ERY
                       </p>
                       <div>
@@ -135,11 +141,17 @@ const FeaturedListings = () => {
                     />
                   </div>
                   <div className="d-flex justify-content-between  ">
-                    <p className="fw-bold" style={{ fontSize: "15px" }}>
+                    <p
+                      className="fw-bold"
+                      style={{ fontSize: "15px", color: "#00C194" }}
+                    >
                       95%
                     </p>
 
-                    <p className="fw-bold" style={{ fontSize: "15px" }}>
+                    <p
+                      className="fw-bold"
+                      style={{ fontSize: "15px", color: "#00C194" }}
+                    >
                       4 Points left
                     </p>
                   </div>
@@ -147,7 +159,7 @@ const FeaturedListings = () => {
                   <div
                     className="d-flex justify-content-center"
                     style={{
-                      backgroundColor: "#EB6753",
+                      backgroundColor: "#00C194",
                       padding: "8px 0",
                       borderRadius: "10px",
                     }}

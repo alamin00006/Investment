@@ -147,7 +147,7 @@ const Home_V1 = () => {
                 <h2
                   style={{
                     fontSize: "35px",
-                    color: "#EB6753",
+                    color: "#00C194",
                     textAlign: "center",
                     paddingTop: "30px",
                   }}
@@ -229,7 +229,7 @@ const Home_V1 = () => {
                 <h2
                   className="title text-center"
                   style={{
-                    color: "#EB6753",
+                    color: "#00C194",
                   }}
                 >
                   People Love Living with
@@ -299,7 +299,7 @@ const Home_V1 = () => {
               <h2
                 className=" "
                 style={{
-                  color: "#EB6753",
+                  color: "#00C194",
                   fontSize: "36px",
                 }}
               >
